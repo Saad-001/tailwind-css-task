@@ -204,18 +204,23 @@
             class="h-8 w-8 rounded-full"
             alt="avatarImage"
           />
-          <textarea
-            class="flex-auto border border-gray-200 focus:outline-none rounded-lg resize-none"
-            rows="5"
-          >
-          </textarea>
-          <div>
-            <button
-              class="py-2 px-5 bg-[#5358b6] text-sm rounded-md text-white font-semibold"
-            >
-              SEND
-            </button>
-          </div>
+          <form class="flex-auto">
+            <div class="flex justify-between gap-5">
+              <textarea
+                class="w-full border border-gray-200 focus:outline-none rounded-lg resize-none p-3"
+                rows="5"
+              >
+              </textarea>
+              <div>
+                <button
+                  class="py-2 px-5 bg-[#5358b6] text-sm rounded-md text-white font-semibold"
+                  type="submit"
+                >
+                  SEND
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </section>
